@@ -7,8 +7,5 @@
 <img src="https://www.iconsdb.com/icons/download/white/github-11-128.png" width="90" style="margin-right: 10px;">
 
 
-# DevOps Project  sample task for RoomVu.
-
-
-# Task
-* Deploy a multi-container application on Kubernetes using Docker. The application consists of three services: a web server, a Laravel base project, and a database. The web server is nginx,and the database is built using MySQL.
+# Introductions 
+* GitLab provides a solution for managing Kubernetes clusters across multiple clouds in a centralized location. With GitLab, you can deploy, monitor, and manage your Kubernetes clusters with ease. This allows you to streamline your operations and reduce the complexity of managing multiple clusters across various cloud platforms. By leveraging GitLab's built-in CI/CD capabilities, you can automate your deployment processes and ensure that your applications are running smoothly on your Kubernetes clusters. Whether you're running a small-scale operation or a large enterprise, GitLab can help simplify your Kubernetes management and improve your overall productivity.
