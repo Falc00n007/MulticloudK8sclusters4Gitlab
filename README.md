@@ -1,4 +1,4 @@
-<img scr="https://github.com/Falc00n007/MulticloudK8sclusters4Gitlab/blob/main/multi-cloud-k8s-clustering-gitlab-frahimi.gif">
+<img src="https://github.com/Falc00n007/MulticloudK8sclusters4Gitlab/blob/main/multi-cloud-k8s-clustering-gitlab-frahimi.gif">
 
 # multicloud k8s clustering for gitlab or Github
 
