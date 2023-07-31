@@ -2,7 +2,7 @@
 
 <p align="center"> 
 
-<img src="https://kubernetes.io/images/nav_logo2.svg" width="210" style="margin-right: 10px;"></p>
+<img src="https://kubernetes.io/images/nav_logo2.svg" width="210" style="margin-right: 10px;">
 <img src="https://about.gitlab.com/images/press/logo/svg/gitlab-logo-200.svg" width="210" style="margin-right: 10px;"> </p>
 
 # DevOps Project  sample task for RoomVu.
