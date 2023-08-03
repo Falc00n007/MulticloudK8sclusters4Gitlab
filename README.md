@@ -25,8 +25,10 @@ When it comes to managing multiple Kubernetes clusters, GitLab is the superior c
 </p>
 
 <figure>
+<p align="center"> 
   <img src="https://github.com/Falc00n007/MulticloudK8sclusters4Gitlab/blob/main/k8smulti-clusters.png">
   <figcaption> Organizing multiple Kubernetes clusters in a hierarchical structure using GitLab groups and subgroups.</figcaption>
+</p>
 </figure>
 
 
