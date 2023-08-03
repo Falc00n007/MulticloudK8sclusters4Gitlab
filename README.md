@@ -20,7 +20,8 @@ When it comes to managing multiple Kubernetes clusters, GitLab is the superior c
 
 # A- Creating GitLab Hierarchy Groups:
 * To create GitLab Hierarchy Groups, you can define a group within another group, allowing you to inherit all of the parent group's environment variables. In doing so, you can define the KUBECONFIG file in the parent group, and use these variables in all projects within it. Consider a scenario where you have three Kubernetes clusters in different environments, such as AWS, Google Cloud, and Azure. To create a hierarchy that accommodates these clusters, you will need to create a group and project hierarchy in the following way:
-<img src="https://github.com/Falc00n007/MulticloudK8sclusters4Gitlab/blob/main/k8smulti-clusters.png" align="center">
+<p align="center"> 
+<img src="https://github.com/Falc00n007/MulticloudK8sclusters4Gitlab/blob/main/k8smulti-clusters.png"></p>
 
 
 #Continued! I am currently working on developing the documentation. It will take some time to complete. Please follow me for updates so that we can move forward together. Thank you.
