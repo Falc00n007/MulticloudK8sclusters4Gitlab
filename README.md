@@ -95,6 +95,15 @@ deploy:
     done
 </pre>
 
+Next, it is essential to update all of your projects and incorporate this content into their respective gitlab-ci.yml files.
+
+<pre>
+include:
+  - project: 'cd/template'
+    ref: 'main'
+    file: 'install.yml'
+</pre>
+
 #Continued! I am currently working on developing the documentation. It will take some time to complete. Please follow me for updates so that we can move forward together. Thank you.
 
 
