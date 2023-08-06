@@ -25,6 +25,9 @@ When it comes to managing multiple Kubernetes clusters, GitLab is the superior c
 <img src="https://github.com/Falc00n007/MulticloudK8sclusters4Gitlab/blob/main/k8smulti-clusters.png">
 <h6 align="center" >Organizing multiple Kubernetes clusters in a hierarchical structure using GitLab groups and subgroups.</h6>
 </p>
+* In this setup, there are multiple groups, each representing a separate Kubernetes cluster. Within each group, there are projects, which consist of a collection of manifest files specific to that project.
+For instance, in the mentioned image, there is a project called API-GTWY located within the aws-us-east-2 group. This indicates that the manifest files within the API-GTWY project are designed for deployment to a Kubernetes cluster situated in the us-east region.
+
 
 #Continued! I am currently working on developing the documentation. It will take some time to complete. Please follow me for updates so that we can move forward together. Thank you.
 
