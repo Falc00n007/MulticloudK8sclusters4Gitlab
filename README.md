@@ -48,7 +48,21 @@ For instance, in the mentioned image, there is a project called API-GTWY located
     ├── deployment.yaml
     └── service.yaml
 </pre>
-‍
+‍Within the gitlab-ci.yml file, you have the option to deploy your manifests using the following approach:
+
+<pre>
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  image: bitnami/kubectl
+  script: |
+    for f in manifests/*
+    do
+        kubectl apply -f $f 
+    done    
+</pre>
 
   
 
