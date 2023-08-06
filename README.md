@@ -76,8 +76,9 @@ The KUBECONFIG environment variable is set at the parent group level, eliminatin
 # 005- Centralize CD pipeline code.
 
 * GitLab offers a valuable feature called Templating that allows you to define a universal template for your pipeline. This template can be included in multiple projects, enabling you to centralize your CD pipeline code and make alterations at a single location. Consequently, if you need to update the pipeline code, you can avoid modifying each project individually. Begin by creating a dedicated project to store your pipeline code, and then incorporate it into other projects. In my example, I designated this project as "template" within the CD group, as demonstrated below:
-
-
+<p align="center"> 
+<img src="https://github.com/Falc00n007/MulticloudK8sclusters4Gitlab/blob/main/multicluster-002.png">
+</p>
 
 #Continued! I am currently working on developing the documentation. It will take some time to complete. Please follow me for updates so that we can move forward together. Thank you.
 
