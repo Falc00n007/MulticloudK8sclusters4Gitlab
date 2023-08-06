@@ -68,10 +68,15 @@ The KUBECONFIG environment variable is set at the parent group level, eliminatin
 
 # 004- Access Control.
 * You have the capability to assign hierarchical access to your team members, enabling them to manage groups and projects. By granting access at the group level, all projects within that group will adopt the same access model, eliminating the necessity to modify access settings for each project individually. As an example, in the provided image, I have given Jack, one of my team members, Maintainer access (including read and write permissions) to modify all projects within the aws-us-east-2 group.
-* 
+  
 <p align="center"> 
 <img src="https://github.com/Falc00n007/MulticloudK8sclusters4Gitlab/blob/main/multicluster003.png">
 </p>
+
+# 005- Centralize CD pipeline code.
+
+* GitLab offers a valuable feature called Templating that allows you to define a universal template for your pipeline. This template can be included in multiple projects, enabling you to centralize your CD pipeline code and make alterations at a single location. Consequently, if you need to update the pipeline code, you can avoid modifying each project individually. Begin by creating a dedicated project to store your pipeline code, and then incorporate it into other projects. In my example, I designated this project as "template" within the CD group, as demonstrated below:
+
 
 
 #Continued! I am currently working on developing the documentation. It will take some time to complete. Please follow me for updates so that we can move forward together. Thank you.
