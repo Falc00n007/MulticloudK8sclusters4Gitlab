@@ -64,6 +64,7 @@ deploy:
     done    
 </pre>
 
+The KUBECONFIG environment variable is set at the parent group level, eliminating the need to define it separately for each individual project.
   
 
 #Continued! I am currently working on developing the documentation. It will take some time to complete. Please follow me for updates so that we can move forward together. Thank you.
