@@ -39,7 +39,7 @@ For instance, in the mentioned image, there is a project called API-GTWY located
 * In my specific situation, it is necessary to store the Kubeconfig files associated with my Kubernetes clusters in their corresponding groups.
 
 # 003- Utilize GitLab CI to deploy your application.
-* You now have the capability to generate manifest files within individual projects and deploy them using the GitLab CI pipeline. Below is an illustration of the content within the api-gateway project located in the aws-us-east-1 group as an example:
+* You now have the capability to generate manifest files within individual projects and deploy them using the GitLab CI pipeline. Below is an illustration of the content within the api-gateway project located in the aws-us-east-2 group as an example:
 <pre>
 .
 ├── gitlab-ci.yml
