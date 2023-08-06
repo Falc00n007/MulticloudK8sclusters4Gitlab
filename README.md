@@ -34,8 +34,9 @@ For instance, in the mentioned image, there is a project called API-GTWY located
 
 <p align="center"> 
 <img src="https://github.com/Falc00n007/MulticloudK8sclusters4Gitlab/blob/main/kubeconfigfrtsst1245.png">
-<h6 align="center" >In my specific situation, it is necessary to store the Kubeconfig files associated with my Kubernetes clusters in their corresponding groups.</h6>
 </p>
+* In my specific situation, it is necessary to store the Kubeconfig files associated with my Kubernetes clusters in their corresponding groups.
+
 
 #Continued! I am currently working on developing the documentation. It will take some time to complete. Please follow me for updates so that we can move forward together. Thank you.
 
