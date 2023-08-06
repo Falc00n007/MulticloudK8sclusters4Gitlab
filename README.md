@@ -18,7 +18,7 @@
 
 When it comes to managing multiple Kubernetes clusters, GitLab is the superior choice compared to GitHub, despite both platforms offering a variety of useful features. With GitLab, you can seamlessly manage your manifests in a structured manner within a Git repository, making it easier to organize your clusters in multi-cloud environments using GitOps practices. Additionally, GitLab's hierarchy structure is highly flexible, allowing you to define unlimited groups, while GitHub has limitations that prevent the creation of hierarchical groups. This is one of the many reasons why GitLab is my preferred choice over GitHub for managing multiple Kubernetes clusters.
 
-# A- Creating GitLab Hierarchy Groups:
+# 001- Creating GitLab Hierarchy Groups:
 * To create GitLab Hierarchy Groups, you can define a group within another group, allowing you to inherit all of the parent group's environment variables. In doing so, you can define the KUBECONFIG file in the parent group, and use these variables in all projects within it. Consider a scenario where you have three Kubernetes clusters in different environments, such as AWS, Google Cloud, and Azure. To create a hierarchy that accommodates these clusters, you will need to create a group and project hierarchy in the following way:
 
 <p align="center"> 
@@ -28,6 +28,10 @@ When it comes to managing multiple Kubernetes clusters, GitLab is the superior c
 
 * In this setup, there are multiple groups, each representing a separate Kubernetes cluster. Within each group, there are projects, which consist of a collection of manifest files specific to that project.
 For instance, in the mentioned image, there is a project called API-GTWY located within the aws-us-east-2 group. This indicates that the manifest files within the API-GTWY project are designed for deployment to a Kubernetes cluster situated in the us-east region.
+
+# 002- Storing KubeConfig in environment variables at the group level:
+* In GitLab, projects belonging to a group can utilize shared environment variables defined at the parent group or higher levels, and the reverse is also true. To enable this functionality, you need to set up the KubeConfig file, which holds the necessary credentials for establishing a connection with the Kubernetes API server, in the group's settings. Navigate to the Group Name -> CI/CD Settings -> Variables -> Add Variable Path to configure it.
+
 
 
 #Continued! I am currently working on developing the documentation. It will take some time to complete. Please follow me for updates so that we can move forward together. Thank you.
