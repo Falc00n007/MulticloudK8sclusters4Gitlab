@@ -79,6 +79,8 @@ The KUBECONFIG environment variable is set at the parent group level, eliminatin
 <p align="center"> 
 <img src="https://github.com/Falc00n007/MulticloudK8sclusters4Gitlab/blob/main/multicluster-002.png">
 </p>
+Within the template project, you will find an install.yml file that contains content resembling the gitlab-ci.yml file discussed earlier in this section.
+
 
 #Continued! I am currently working on developing the documentation. It will take some time to complete. Please follow me for updates so that we can move forward together. Thank you.
 
