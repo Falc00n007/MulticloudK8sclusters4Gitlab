@@ -32,7 +32,10 @@ For instance, in the mentioned image, there is a project called API-GTWY located
 # 002- Storing KubeConfig in environment variables at the group level:
 * In GitLab, projects belonging to a group can utilize shared environment variables defined at the parent group or higher levels, and the reverse is also true. To enable this functionality, you need to set up the KubeConfig file, which holds the necessary credentials for establishing a connection with the Kubernetes API server, in the group's settings. Navigate to the Group Name -> CI/CD Settings -> Variables -> Add Variable Path to configure it.
 
-
+<p align="center"> 
+<img src="https://github.com/Falc00n007/MulticloudK8sclusters4Gitlab/blob/main/k8smulti-clusters.png">
+<h6 align="center" >Organizing multiple Kubernetes clusters in a hierarchical structure using GitLab groups and subgroups.</h6>
+</p>
 
 #Continued! I am currently working on developing the documentation. It will take some time to complete. Please follow me for updates so that we can move forward together. Thank you.
 
