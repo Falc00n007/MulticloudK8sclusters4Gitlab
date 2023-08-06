@@ -65,7 +65,14 @@ deploy:
 </pre>
 
 The KUBECONFIG environment variable is set at the parent group level, eliminating the need to define it separately for each individual project.
-  
+
+# 004- Access Control.
+* You have the capability to assign hierarchical access to your team members, enabling them to manage groups and projects. By granting access at the group level, all projects within that group will adopt the same access model, eliminating the necessity to modify access settings for each project individually. As an example, in the provided image, I have given Jack, one of my team members, Maintainer access (including read and write permissions) to modify all projects within the aws-us-east-2 group.
+* 
+<p align="center"> 
+<img src="https://github.com/Falc00n007/MulticloudK8sclusters4Gitlab/blob/main/multicluster003.png">
+</p>
+
 
 #Continued! I am currently working on developing the documentation. It will take some time to complete. Please follow me for updates so that we can move forward together. Thank you.
 
